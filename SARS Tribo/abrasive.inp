@@ -1,0 +1,17 @@
+tolerance 3.0
+filetype pdb
+output abrasive.pdb
+
+structure dock2.pdb
+  number 1
+  inside box -50. 160. -150. 50. -5. 130.
+  center
+  fixed 0. 0. 0. 0. 0. 0.
+end structure
+
+structure cube.pdb
+  number 1
+  inside box 50 65. -5. 9. 109. 123.
+  center
+  fixed 95. 10. -10. 0. 0. 0.
+end structure
